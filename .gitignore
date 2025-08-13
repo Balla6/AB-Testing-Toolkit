@@ -1,0 +1,17 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+
+# editors/OS
+.vscode/
+.idea/
+.DS_Store
+
+# data & reports (keep sample CSV only)
+data/*
+!data/ab_sample_pre.csv
+reports/*.html
